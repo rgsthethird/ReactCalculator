@@ -6,10 +6,6 @@ class Calc extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            // history: [{
-            //  expression: [],
-            //  status: "",   
-            // }],
             expression: [],
             status: "",
         }
@@ -186,10 +182,6 @@ class Calc extends React.Component {
                         {this.renderButton(".")}
                         {this.renderButton("=")}
                         {this.renderButton("/")}
-                    </div>
-                    <div className="bottomrow">
-                        {this.renderButton("<")}
-                        {this.renderButton(">")}
                     </div>
                 </div>
             </div>
